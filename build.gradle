@@ -9,6 +9,12 @@ repositories {
     mavenCentral()
 }
 
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
 dependencies {
     implementation 'com.google.code.gson:gson:2.10.1'
 
